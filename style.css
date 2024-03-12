@@ -1,0 +1,222 @@
+@font-face {
+    font-family: inter;
+    src: url(./assets/fonts/Inter-VariableFont_slnt,wght.ttf);
+}
+
+html
+{
+    background: url(images/bg-pattern-top-desktop.svg), url(images/bg-pattern-bottom-desktop.svg);
+    background-position: top left, bottom right;
+    background-repeat: no-repeat;
+    height: 90vh;
+    background-size: 90vh;
+    overflow: hidden;
+    justify-content: center;
+}
+
+body
+{
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container {
+    margin: 2rem 5rem 2rem 5rem;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 24rem 24rem 24rem;
+    justify-content: center;
+    grid-column-gap: 2em;
+    grid-row-gap: 3em;
+}
+
+.left-item {
+    grid-column: 1 / span 2;
+    grid-row: 1;
+    margin-top: 2.5rem;
+}
+
+.left-item h1 {
+    width: 25rem;
+    font-size: 55px;
+    color: hsl(300, 43%, 22%);
+    line-height: 3rem;
+}
+
+.left-item p {
+    width: 31rem;
+    color: hsl(303, 10%, 53%);
+    margin-top: -10px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.5em;
+}
+
+.right-item {
+    grid-column: 2 / span 2;
+    grid-row: 1;
+    color: hsl(300, 43%, 22%);
+    width: 52rem;
+    margin-left: 8rem;
+    font-weight: 700
+}
+
+.right-item p {
+    font-size: 17px; 
+    margin-bottom: 0.8em;
+}
+
+.right-item img {
+   padding-right: 0.5rem;
+   margin-top: 0.8rem;
+   float: left;
+   text-align: center;
+}
+
+.right-item ul {
+    list-style-type: none;
+}
+
+.right-item h2 {
+    margin-left: 145px;
+}
+
+.stars {
+  margin-top: 0.4rem;
+}
+
+.text-stars {
+    margin-left: 9.5rem;
+}
+
+#Reviews {
+    margin-top: 4rem;
+    background-color: #f7f2f8;
+    width: 60%;
+    padding: 5px 0px 5px 25px;
+    border-radius: 10px;
+    float: right;
+    margin-right: 16rem;
+}
+
+#ReportGuru {
+    margin-top: 3.5rem;
+    background-color: #f7f2f8;
+    width: 60%;
+    padding: 5px;
+    padding: 5px 0px 5px 25px;
+    border-radius: 10px;
+    float: right;
+    margin-right: 13rem;
+    margin-top: 1rem;
+}
+
+#BestTech {
+    margin-top: 3.5rem;
+    background-color: #f7f2f8;
+    width: 60%;
+    padding: 5px 0px 5px 25px;
+    border-radius: 10px;
+    float: right;
+    margin-right: 10rem;
+    margin-top: 1rem;
+}
+
+.first {
+    grid-column: 1 / span 1;
+    grid-row: 2;
+    margin-bottom: 7rem;
+    padding: 2.5rem 2rem 2.5rem 2rem;
+}
+
+
+.second {
+    grid-column: 2 / span 1;
+    grid-row: 2;
+    padding: 2.5rem 2rem 2.5rem 2rem;
+    margin-bottom: 5rem;
+}
+
+.second p {
+    width: 19rem;
+}
+
+.third {
+    grid-column: 3 / span 1;
+    grid-row: 2;
+    padding: 2.5rem 2rem 2.5rem 2rem;
+    margin-bottom: 3rem;
+}
+
+.first, .second, .third {
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 10px;
+    width: 20rem;
+    height: 11rem;
+    color: hsl(0, 0%, 100%);
+    overflow: hidden;
+}
+
+.first h3, .second h3, .third h3 {
+    float: right;
+    margin-right: 10rem;
+    font-size: 16px;
+}
+
+.first h4, .second h4, .third h4 {
+    color: hsl(333, 80%, 67%);
+    font-weight: 400;
+    text-align: center;
+    margin-right: 7rem;
+    font-size: 16px;
+    line-height: 2rem;
+}
+
+.first img,.second img,.third img
+{    border-radius: 50px;
+    width: 40px;
+    
+}
+
+.first p ,.second p , .third p {
+   font-size: 17px; 
+   line-height: 1.5em;
+}
+
+#colton h3 {
+    float: right;
+    margin-right: 10rem;
+    margin-top: 0rem;
+}
+
+#colton h4 {
+    position: absolute ;
+    margin-left: 4rem;
+    margin-top: -1.8rem;
+}
+
+#irene h3 {
+    float: right;
+    margin-right: 10rem;
+    margin-top: 0rem;
+}
+
+#irene h4 {
+    position: absolute ;
+    margin-left: 3.8rem;
+    margin-top: -1.8rem;
+}
+
+#anne h3 {
+    float: right;
+    margin-right: 10rem;
+    margin-top: 0rem;
+}
+
+#anne h4 {
+    position: absolute ;
+    margin-left: 3.7rem;
+    margin-top: -1.8rem;
+}
